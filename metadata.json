@@ -1,0 +1,10 @@
+{
+  "name": "Remix Remix Jolum — Умная транспортная система города Манас",
+  "description": "Цифровая платформа общественного транспорта города Манас, Кыргызстан: интерактивная карта Leaflet, маршруты, остановки, поиск поездок и панель управления мэрии.",
+  "requestFramePermissions": [
+    "geolocation"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

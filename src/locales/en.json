@@ -1,0 +1,372 @@
+{
+  "appName": "Jolum",
+  "appTagline": "Smart Public Transit System of Manas",
+  "cityBadge": "Manas, Kyrgyzstan",
+  "cityShort": "Manas",
+  "municipalityBadge": "Manas City Municipality",
+  "demoNotice": "Demo mode: GPS simulation",
+  "demoNoticeShort": "demo GPS",
+  "demoNoticeLong": "Notice: vehicle movement is displayed in demonstration simulation mode for Manas City Hall. Ready to connect live GPS trackers.",
+  "nav": {
+    "map": "Map",
+    "routes": "Routes",
+    "planner": "Trip Planner",
+    "stops": "Stops",
+    "news": "News",
+    "admin": "City Admin",
+    "favorites": "Favorites",
+    "toggleMenu": "Toggle navigation menu"
+  },
+  "map": {
+    "legend": "Layers & Filters",
+    "showBuses": "Buses",
+    "showStops": "Stops",
+    "allRoutes": "All routes",
+    "filterRoute": "Filter by route",
+    "centerMap": "Center on Bishkek",
+    "myLocation": "My location",
+    "simSpeed": "Simulation speed",
+    "pause": "Pause",
+    "play": "Play",
+    "locateError": "Unable to detect geolocation",
+    "canvasAria": "Interactive Yandex public transit map",
+    "justNowSim": "Just now (simulated)",
+    "loadingMap": "Loading Yandex Maps...",
+    "mapLoadError": "Unable to load Yandex Maps. Check network connectivity or API key."
+  },
+  "routes": {
+    "title": "City Routes",
+    "subtitlePrefix": "Network coverage:",
+    "searchPlaceholder": "Search route by number or stop...",
+    "allCategories": "All categories",
+    "bus": "Bus",
+    "minibus": "Minibus",
+    "express": "Express",
+    "directionForward": "Forward direction",
+    "directionReturn": "Return direction",
+    "stopsCount": "stops",
+    "tripTime": "Trip time",
+    "interval": "Headway",
+    "fare": "Fare",
+    "schedule": "Operating hours",
+    "activeBuses": "Active fleet",
+    "unitsBuses": "buses",
+    "som": "KGS",
+    "min": "min",
+    "addToFav": "Add to favorites",
+    "removeFromFav": "Remove from favorites",
+    "stopsOnRoute": "Stops timeline",
+    "viewOnMap": "Show on map",
+    "noRoutesFound": "No routes match your search"
+  },
+  "planner": {
+    "title": "Trip Planner",
+    "subtitle": "Find the fastest public transit path across Manas",
+    "from": "From (origin stop)",
+    "to": "To (destination stop)",
+    "selectStop": "Select a stop...",
+    "swap": "Swap origin and destination",
+    "findRoute": "Find route",
+    "quickSelect": "Quick pick:",
+    "foundOptionsLabel": "Found:",
+    "fastestBadge": "Fastest",
+    "directRoute": "Direct route (no transfers)",
+    "transferRoute": "Route with 1 transfer",
+    "boardAt": "Board at",
+    "alightAt": "Alight at",
+    "transferAt": "Transfer at",
+    "transfersCount": "Transfers",
+    "estimatedTime": "Estimated duration",
+    "noResults": "No matching routes found. Try choosing different stops.",
+    "showStepsOnMap": "Highlight on map",
+    "presets": {
+      "cityHall": "Manas City Hall",
+      "market": "Bereke Market",
+      "hospital": "Regional Hospital",
+      "busStation": "Bus Terminal"
+    }
+  },
+  "stops": {
+    "title": "City Stops",
+    "subtitlePrefix": "Showing:",
+    "stopKind": "Public transit stop",
+    "searchPlaceholder": "Search stop by name...",
+    "nearestToMe": "Nearest to me",
+    "allStops": "All stops",
+    "passingRoutes": "Serving routes",
+    "routesShort": "Routes:",
+    "arrivalBoard": "Live arrival board (demo)",
+    "arrivingIn": "Arriving in",
+    "noUpcomingBuses": "No buses approaching right now",
+    "amenitiesTitle": "Stop amenities:",
+    "planFromHere": "Plan from here",
+    "planToHere": "Plan to here",
+    "amenities": {
+      "shelter": "Weather shelter",
+      "wifi": "Free Wi-Fi",
+      "bench": "Seating benches",
+      "screen": "Digital display",
+      "accessible": "Wheelchair ramp"
+    }
+  },
+  "busCard": {
+    "busNumber": "Bus",
+    "route": "Route",
+    "plate": "License plate",
+    "nextStop": "Next stop",
+    "speed": "Speed",
+    "kmh": "km/h",
+    "occupancy": {
+      "title": "Occupancy",
+      "label": "Load:",
+      "low": "Seats available",
+      "medium": "Moderate",
+      "high": "Crowded"
+    },
+    "features": {
+      "accessible": "Low-floor accessible",
+      "wifi": "Onboard Wi-Fi",
+      "ac": "Air conditioning"
+    },
+    "driver": "Driver",
+    "gpsStatus": "Telemetry source",
+    "gpsSimulatedValue": "Demo Simulator (Manas City Hall)"
+  },
+  "news": {
+    "officialBadge": "Official notices",
+    "pageTitle": "City Hall Transit Updates",
+    "pageSubtitle": "Operational alerts and schedule notices for Manas public transit",
+    "filters": {
+      "all": "All",
+      "info": "Information",
+      "warning": "Alerts",
+      "service": "Routes"
+    },
+    "affectedRoutes": "Affected lines:",
+    "emptyCategory": "No announcements in this category"
+  },
+  "admin": {
+    "title": "Manas City Hall Transit Console",
+    "subtitle": "Municipal monitoring, dispatch, and fleet operations",
+    "exportJson": "Export JSON",
+    "exportJsonTitle": "Export configuration (JSON)",
+    "confirmReset": "Reset all changes back to initial demonstration data?",
+    "tabs": {
+      "stats": "Statistics & Analytics",
+      "routes": "Route Management",
+      "stops": "Stops",
+      "buses": "Fleet & Tracking",
+      "delays": "Delays & Incidents",
+      "announcements": "Announcements",
+      "integration": "GPS / Integration"
+    },
+    "stats": {
+      "activeFleet": "Active buses",
+      "fleetOnline": "100% online",
+      "punctuality": "Schedule adherence",
+      "punctualityTarget": "Target: 95%",
+      "dailyPassengers": "Passengers today",
+      "avgSpeed": "Average speed",
+      "ecoBonus": "CO₂ savings",
+      "ecoFleet": "Eco-CNG fleet",
+      "tons": "tons",
+      "hourlyTitle": "Hourly Passenger Demand (Manas)",
+      "hourlySubtitle": "Morning and evening peak windows",
+      "workdayBadge": "Weekday",
+      "weeklyLoadTitle": "Weekly Transit Load Analytics",
+      "weeklyLoadSubtitle": "Average and peak cabin occupancy by day of week (demo analytics)",
+      "avgLoad": "Average load",
+      "peakLoad": "Peak load",
+      "weeklyAvgSummary": "Weekly avg",
+      "peakDaySummary": "Peak day",
+      "allRoutesFilter": "All routes",
+      "routePrefix": "Route #",
+      "demoDatasetLabel": "Weekly demo dataset",
+      "passengersUnit": "pax"
+    },
+    "actions": {
+      "addRoute": "Add route",
+      "addStop": "Add stop",
+      "addBus": "Add bus",
+      "publishAnnouncement": "Publish notice",
+      "delete": "Delete",
+      "edit": "Edit",
+      "save": "Save",
+      "cancel": "Cancel",
+      "resetDemo": "Reset to demo data"
+    },
+    "tables": {
+      "routesListTitle": "City transit routes",
+      "stopsListTitle": "Public transit stops",
+      "fleetListTitle": "Fleet & dispatch",
+      "colNumber": "#",
+      "colRouteName": "Route name",
+      "colStops": "Stops",
+      "colInterval": "Headway",
+      "colFare": "Fare",
+      "colActions": "Actions",
+      "colStopName": "Name (RU / KG / EN)",
+      "colCoords": "Coordinates",
+      "colRoutes": "Routes",
+      "colAddress": "Address",
+      "colPlate": "Plate",
+      "colRoute": "Route",
+      "colModel": "Model",
+      "colDriver": "Driver",
+      "colSpeed": "Speed",
+      "colGpsStatus": "GPS status",
+      "demoSimBadge": "Demo simulation"
+    },
+    "forms": {
+      "routeNumber": "Route number",
+      "routeNumberPlaceholder": "e.g., 5",
+      "routeColor": "Map line color",
+      "routeNameRu": "Route name (RU)",
+      "routeNameKg": "Route name (KG)",
+      "routeNameEn": "Route name (EN)",
+      "durationMin": "Duration (min)",
+      "intervalMin": "Headway (min)",
+      "fareKgs": "Fare (KGS)",
+      "selectStopsOrder": "Select stops along route (in order):",
+      "stopNameRu": "Stop name (RU)",
+      "stopNameKg": "Stop name (KG)",
+      "stopNameEn": "Stop name (EN)",
+      "lat": "Latitude",
+      "lng": "Longitude",
+      "address": "Address / Landmark",
+      "busPlate": "License plate",
+      "assignedRoute": "Assigned route",
+      "busModel": "Bus model",
+      "driverFullName": "Driver full name",
+      "noticeTitleRu": "Title (Russian)",
+      "noticeTitleKg": "Title (Kyrgyz)",
+      "noticeContentRu": "Announcement text (Russian)",
+      "noticeContentKg": "Announcement text (Kyrgyz)",
+      "publishToCitizens": "Publish to passengers",
+      "activeAnnouncements": "Published notices",
+      "today": "Today"
+    },
+    "integration": {
+      "title": "Real-Time GPS Telemetry Architecture",
+      "subtitle": "Jolum is built with an open modular ingestion layer compatible with onboard GPS terminals (Omnicomm, Teltonika, Galileosky) and regional telematics gateways.",
+      "card1Title": "1. REST / Webhook API",
+      "card1Desc": "HTTP POST telemetry ingestion: lat/lng coordinates, speed, heading bearing, vehicle ID, and fuel/battery diagnostics.",
+      "card2Title": "2. WebSocket Live Feed",
+      "card2Desc": "Sub-200 ms low-latency streaming to passenger clients and municipal dispatch dashboards.",
+      "card3Title": "3. GTFS Realtime Standard",
+      "card3Desc": "Full interoperability with Google Transit, Yandex Maps, and open transit data feeds."
+    },
+    "toasts": {
+      "routeValidation": "Enter route number, name, and select at least 2 stops",
+      "routeAdded": "Route #{{number}} added successfully",
+      "routeDeleted": "Route removed",
+      "stopValidation": "Enter stop name",
+      "stopAdded": "Stop «{{name}}» added",
+      "stopDeleted": "Stop removed",
+      "busValidation": "Enter license plate",
+      "busAdded": "Bus {{plate}} assigned to route #{{number}}",
+      "busDeleted": "Bus removed from fleet",
+      "noticeValidation": "Enter both title and announcement body",
+      "noticePublished": "Announcement published to all passengers",
+      "noticeDeleted": "Announcement removed",
+      "delayResolved": "Delay marked as resolved",
+      "jsonExported": "Configuration exported to JSON",
+      "resetSuccess": "Data restored to demo seed"
+    },
+    "delays": {
+      "title": "Delay & Incident Log",
+      "noDelays": "All vehicles are operating on schedule",
+      "resolve": "Mark resolved",
+      "resolved": "Resolved",
+      "delay": "Delay",
+      "routeLabel": "Route #{{number}} ({{plate}})"
+    }
+  },
+  "favorites": {
+    "title": "Favorite Routes & Stops",
+    "emptyRoutes": "No favorite routes yet",
+    "empty": "You haven't saved any routes yet. Click the star icon next to any route."
+  },
+  "shareQr": {
+    "buttonLabel": "QR Code",
+    "openCardButton": "Site QR Code",
+    "title": "Share Jolum",
+    "subtitle": "Instant mobile access to the Manas transit map",
+    "scanInstruction": "Scan the QR code to open Jolum",
+    "cardHint": "Point your camera to open on your phone",
+    "downloadBtn": "Download QR",
+    "shareBtn": "Share link",
+    "copyBtn": "Copy",
+    "copiedBtn": "Copied!",
+    "openSiteBtn": "Open site",
+    "expandBtn": "Enlarge / Download",
+    "collapseAria": "Collapse QR card",
+    "printNote": "Crisp 1024×1024 px image ready for posters, bus shelters, and flyers",
+    "printPosterSubtitle": "Manas · Public Transit",
+    "publicUrlLabel": "QR target URL",
+    "localNotice": "Local preview (localhost): QR code automatically uses the public URL so mobile scanning works.",
+    "customUrlPlaceholder": "Or enter a custom domain (e.g., jolum.manas.kg)",
+    "applyUrl": "Apply",
+    "resetUrl": "Reset",
+    "invalidUrl": "Please enter a valid website URL",
+    "qrAlt": "QR code: {{url}}"
+  },
+  "settings": {
+    "buttonLabel": "Settings",
+    "title": "Interface Settings",
+    "subtitle": "Appearance, language, and map simulation options",
+    "themeSectionTitle": "Color Theme",
+    "themeSectionHint": "Dark mode reduces eye strain during evening and night hours",
+    "lightTheme": "Light",
+    "lightThemeDesc": "Daytime clarity",
+    "darkTheme": "Dark",
+    "darkThemeDesc": "Evening comfort",
+    "languageSectionTitle": "App Language",
+    "simulationSectionTitle": "Transit Demo Simulation"
+  },
+  "common": {
+    "close": "Close",
+    "search": "Search",
+    "loading": "Loading...",
+    "status": "Status",
+    "success": "Completed successfully"
+  },
+  "plurals": {
+    "stops": {
+      "one": "{{count}} stop",
+      "other": "{{count}} stops"
+    },
+    "buses": {
+      "one": "{{count}} bus",
+      "other": "{{count}} buses"
+    },
+    "routes": {
+      "one": "{{count}} route",
+      "other": "{{count}} routes"
+    },
+    "minutes": {
+      "one": "{{count}} minute",
+      "other": "{{count}} minutes"
+    },
+    "minutesShort": {
+      "one": "{{count}} min",
+      "other": "{{count}} min"
+    },
+    "transfers": {
+      "one": "{{count}} transfer",
+      "other": "{{count}} transfers"
+    },
+    "options": {
+      "one": "{{count}} option",
+      "other": "{{count}} options"
+    },
+    "passengers": {
+      "one": "{{count}} passenger",
+      "other": "{{count}} passengers"
+    },
+    "units": {
+      "one": "{{count}} unit",
+      "other": "{{count}} units"
+    }
+  }
+}

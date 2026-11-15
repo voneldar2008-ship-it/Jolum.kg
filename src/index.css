@@ -1,0 +1,47 @@
+@import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+
+@layer base {
+  body {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  }
+}
+
+/* Yandex Maps container and dark mode styling */
+.jolum-ymap-container {
+  font-family: inherit;
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.dark .jolum-ymap-container [class*="ground-pane"] {
+  filter: invert(1) hue-rotate(180deg) brightness(0.86) contrast(1.06) saturate(0.85);
+}
+
+.dark .jolum-ymap-container [class*="copyrights-pane"] {
+  filter: invert(1) hue-rotate(180deg);
+  opacity: 0.78;
+}
+
+/* Hardware-accelerated canvas layer smoothing */
+.jolum-transit-canvas {
+  will-change: transform;
+  transform: translate3d(0, 0, 0);
+}
+
+/* Clean Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}
